@@ -1,0 +1,33 @@
+{
+  "name": "log",
+  "plural": "logs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "postedAt": {
+      "type": "date"
+    },
+    "data": {
+      "type": "object"
+    },
+    "coordinates": {
+      "type": "object"
+    },
+    "desc": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

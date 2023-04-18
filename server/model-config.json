@@ -38,5 +38,9 @@
   "item": {
     "dataSource": "db",
     "public": true
+  },
+  "log": {
+    "dataSource": "db",
+    "public": true
   }
 }
